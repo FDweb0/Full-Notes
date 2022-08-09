@@ -1,6 +1,6 @@
- ![icon](assets/logo.png)
+ ![icon](assets/appicon.png)
 
-Omni-Notes
+Full-Notes
 ==========
 
 ![License](https://img.shields.io/badge/License-GPLv3-red.svg)
@@ -17,17 +17,17 @@ The project was inspired by the absence of such applications compatible with old
 
 **Follow the developments and post your comments and advice on Facebook Community at https://www.facebook.com/OmniNotes**
 
-Help to keep translations updated is always welcome, if you want give a hand checkout the translation project on *https://translate.omninotes.app.*
+Help to keep translations updated is always welcome, if you want give a hand checkout the translation project on *https://www.fulldive.com/.*
 
-<a href="https://f-droid.org/repository/browse/?fdid=it.feio.android.omninotes.foss" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"/></a>
-<a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
+<!-- <a href="https://f-droid.org/repository/browse/?fdid=it.feio.android.omninotes.foss" target="_blank"> -->
+<!-- <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"/></a> -->
+<!-- <a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes" target="_blank"> -->
+<!-- <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a> -->
 
-If you're willing to help speeding up developments please also opt-in for the Alpha version of the app following continuous delivery principles:
+<!-- If you're willing to help speeding up developments please also opt-in for the Alpha version of the app following continuous delivery principles: -->
 
-<a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes.alpha" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
+<!-- <a href="https://play.google.com/store/apps/details?id=it.feio.android.omninotes.alpha" target="_blank"> -->
+<!-- <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a> -->
 
 ## Features
 
@@ -44,13 +44,13 @@ Currently the following functions are implemented:
 * Export/import notes to backup
 * Google Now integration: just tell "write a note" followed by the content
 * Multiple widgets, DashClock extension, Android 4.2 lockscreen compatibility
-* Multilanguage: 30+ languages supported: https://crowdin.com/project/omni-notes
+<!-- * Multilanguage: 30+ languages supported: https://crowdin.com/project/omni-notes -->
 
 
-Further developments will include:
+<!-- Further developments will include: -->
 
-* Notes sychronization
-* Web interface to manage notes ([stub project](https://github.com/federicoiosue/omni-notes-desktop))
+<!-- * Notes sychronization -->
+<!-- * Web interface to manage notes ([stub project](https://github.com/federicoiosue/omni-notes-desktop)) -->
 
 You can find a complete changelog inside the application settings menu!
 
