@@ -17,7 +17,7 @@ The project was inspired by the absence of such applications compatible with old
 
 <!-- **Follow the developments and post your comments and advice on Facebook Community at https://www.facebook.com/OmniNotes** -->
 
-Help to keep translations updated is always welcome, if you want give a hand checkout the translation project on *https://www.fulldive.com/.*
+<!-- Help to keep translations updated is always welcome, if you want give a hand checkout the translation project on *https://www.fulldive.com/.* -->
 
 <!-- <a href="https://f-droid.org/repository/browse/?fdid=it.feio.android.omninotes.foss" target="_blank"> -->
 <!-- <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"/></a> -->
