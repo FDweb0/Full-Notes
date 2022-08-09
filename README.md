@@ -1,4 +1,4 @@
- ![icon](assets/appicon.png)
+ ![icon](assets/appicon_round.png)
 
 Full-Notes
 ==========
