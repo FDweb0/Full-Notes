@@ -73,17 +73,17 @@ If you need some help on how to use the application you'll find everything you n
 
 <!-- Look into the wiki for GIFs-based tutorials: [LINK](https://github.com/federicoiosue/Omni-Notes/wiki) -->
 
-## Build
+<!-- ## Build -->
 
-Watch the following terminal session recording on how to compile distributable files
-[![asciicast](https://asciinema.org/a/102898.png)](https://asciinema.org/a/102898)
+<!-- Watch the following terminal session recording on how to compile distributable files -->
+<!-- [![asciicast](https://asciinema.org/a/102898.png)](https://asciinema.org/a/102898) -->
 
-To be sure that build environment is fully compliant with the project the following command creates a container with all the needed tools to compile the code:
+<!-- To be sure that build environment is fully compliant with the project the following command creates a container with all the needed tools to compile the code: -->
 
-```
-cd {project-folder}; rm local.properties; docker rm android-fullnotes; docker run -v $PWD:/workspace --name android-fullnotes tabrindle/min-alpine-android-sdk:latest bash -c "mkdir -p ~/.android && touch ~/.android/repositories.cfg && yes | sdkmanager --update &>/dev/null && cd /workspace && ./gradlew clean build --stacktrace -Dorg.gradle.daemon=true -Pandroid.useDeprecatedNdk=true"
+<!-- ``` -->
+<!-- cd {project-folder}; rm local.properties; docker rm android-fullnotes; docker run -v $PWD:/workspace --name android-fullnotes tabrindle/min-alpine-android-sdk:latest bash -c "mkdir -p ~/.android && touch ~/.android/repositories.cfg && yes | sdkmanager --update &>/dev/null && cd /workspace && ./gradlew clean build --stacktrace -Dorg.gradle.daemon=true -Pandroid.useDeprecatedNdk=true" -->
 
-```
+<!-- ``` -->
 
 ## Test
 
