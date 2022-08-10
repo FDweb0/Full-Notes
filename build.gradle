@@ -45,8 +45,8 @@ allprojects {
 apply plugin: 'org.sonarqube'
 sonarqube {
     properties {
-        property "sonar.projectName", "Omni Notes"
-        property "sonar.projectKey", "omni-notes"
+        property "sonar.projectName", "Full Notes"
+        property "sonar.projectKey", "Full-notes"
         property "sonar.organization", "federicoiosue-github"
         property 'sonar.projectVersion', project.VERSION_NAME
         property "sonar.host.url", "https://sonarcloud.io"
