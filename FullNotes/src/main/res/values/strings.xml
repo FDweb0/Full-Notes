@@ -25,10 +25,10 @@
   <string name="dev_github">https://github.com/FDweb0</string>
   <string name="beta_link">https://play.google.com/apps/testing/com.full.notes.private.encrypted</string>
   <string name="paypal">Paypal</string>
-  <string name="paypal_url">http://goo.gl/ZXgBhz</string>
+  <string name="paypal_url">https://github.com/FDweb0</string>
   <string name="bitcoin">Bitcoin</string>
-  <string name="bitcoin_url">http://goo.gl/I6Xboe</string>
-  <string name="help_online_url">https://goo.gl/Q843oh</string>
+  <string name="bitcoin_url">https://github.com/FDweb0</string>
+  <string name="help_online_url">https://github.com/FDweb0</string>
 
 
   <!-- Activities -->

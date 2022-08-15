@@ -82,7 +82,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "OmniNotes-${variant.name}-${variant.versionName}.apk"
+                    outputFileName = "fullNotes.apk"
+                    //outputFileName = "fullNotes-${variant.name}-${variant.versionName}.apk"
+
                 }
             }
             if (signConfigExists) {
