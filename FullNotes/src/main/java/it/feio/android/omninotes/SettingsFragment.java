@@ -58,6 +58,8 @@ import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreference;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.folderselector.FolderChooserDialog;
+import com.fulldive.startapppopups.PopupManager;
+import com.fulldive.startapppopups.donation.DonationManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.pixplicity.easyprefs.library.Prefs;
 import it.feio.android.omninotes.async.DataBackupIntentService;
@@ -139,7 +141,25 @@ public class SettingsFragment extends PreferenceFragmentCompat {
   public void onResume() {
     super.onResume();
 
-    // Export notes
+    // Export notes support_us
+    Preference support_us = findPreference("support_us");
+    support_us.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+      @Override
+      public boolean onPreferenceClick(Preference preference) {
+
+        //
+        DonationManager.INSTANCE.purchaseFromSettings(
+                requireActivity(),
+                () -> {
+                  return null;
+                },
+                () -> {
+                  new PopupManager().showDonationSuccess(requireContext());
+                  return null;});
+
+        return true;
+      }
+    });
     Preference export = findPreference("settings_export_data");
     if (export != null) {
       export.setSummary(StorageHelper.getExternalStoragePublicDir().getAbsolutePath());

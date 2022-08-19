@@ -126,4 +126,18 @@
 
   </PreferenceCategory>
 
+
+  <PreferenceCategory
+      android:title="Support Us"
+      app:iconSpaceReserved="false">
+
+    <Preference
+        android:key="support_us"
+        android:summary="Buy FullDive a cup of coffe"
+        android:title="Support Us"
+        app:iconSpaceReserved="false" />
+
+  </PreferenceCategory>
+
+
 </PreferenceScreen>

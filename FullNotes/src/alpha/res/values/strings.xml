@@ -18,7 +18,7 @@
 <resources>
 
   <string name="app_name">Full Notes</string>
-  <string name="app_package">com.full.notes.private.encrypted</string>
+  <string name="app_package">com.full.notes.top.secure.encrypted.alpha</string>
   <string name="version_postfix">.ALPHA</string>
 
 </resources>

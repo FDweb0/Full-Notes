@@ -47,6 +47,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import com.fulldive.startapppopups.PopupManager;
 import com.pixplicity.easyprefs.library.Prefs;
 import de.greenrobot.event.EventBus;
 import de.keyboardsurfer.android.widget.crouton.Crouton;
@@ -98,6 +100,17 @@ public class MainActivity extends BaseActivity implements
     binding = ActivityMainBinding.inflate(getLayoutInflater());
     View view = binding.getRoot();
     setContentView(view);
+    new PopupManager().onAppStarted(
+            this,
+            BuildConfig.APPLICATION_ID,
+            true,
+            true,
+            true,
+            200,
+            (action) -> {
+              return null;
+            }
+    );
 
     EventBus.getDefault().register(this);
     Prefs.getPreferences().registerOnSharedPreferenceChangeListener(this);

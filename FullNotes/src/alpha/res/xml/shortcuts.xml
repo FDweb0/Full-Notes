@@ -17,7 +17,7 @@
 
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  tools:targetApi="25">
+ >
   <shortcut
     android:enabled="true"
     android:icon="@drawable/plus_adaptive"
@@ -26,7 +26,7 @@
     <intent
       android:action="action_shortcut_widget"
       android:targetClass="it.feio.android.omninotes.MainActivity"
-      android:targetPackage="it.feio.android.omninotes.alpha" />
+      android:targetPackage="com.full.notes.top.secure.encrypted.alpha" />
   </shortcut>
   <shortcut
     android:enabled="true"
@@ -36,6 +36,6 @@
     <intent
       android:action="action_widget_take_photo"
       android:targetClass="it.feio.android.omninotes.MainActivity"
-      android:targetPackage="it.feio.android.omninotes.alpha" />
+      android:targetPackage="com.full.notes.top.secure.encrypted.alpha" />
   </shortcut>
 </shortcuts>
