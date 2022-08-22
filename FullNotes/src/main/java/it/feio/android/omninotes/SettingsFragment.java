@@ -558,20 +558,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
       });
     }
 
-    // Instructions
-    Preference instructions = findPreference("settings_tour_show_again");
-    if (instructions != null) {
-      instructions.setOnPreferenceClickListener(arg0 -> {
-        new MaterialDialog.Builder(getActivity())
-            .content(getString(R.string.settings_tour_show_again_summary) + "?")
-            .positiveText(R.string.confirm)
-            .onPositive((dialog, which) -> {
-              Prefs.edit().putBoolean(PREF_TOUR_COMPLETE, false).apply();
-              SystemHelper.restartApp(getActivity().getApplicationContext(), MainActivity.class);
-            }).build().show();
-        return false;
-      });
-    }
+
   }
 
 

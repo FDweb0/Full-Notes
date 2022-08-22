@@ -117,11 +117,7 @@ public class NotificationsHelper {
         .setColor(mContext.getResources().getColor(R.color.colorAccent))
         .setContentIntent(notifyIntent);
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-      setLargeIcon(R.drawable.logo_notification_lollipop);
-    } else {
-      setLargeIcon(R.mipmap.ic_launcher);
-    }
+    setLargeIcon(R.mipmap.ic_launcher);
 
     return this;
   }
